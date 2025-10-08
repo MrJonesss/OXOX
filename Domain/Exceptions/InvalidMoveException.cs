@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Exceptions
 {
-    internal class InvalidMoveException : Exception
+    public class InvalidMoveException : Exception
     {
         public InvalidMoveException()
         {
